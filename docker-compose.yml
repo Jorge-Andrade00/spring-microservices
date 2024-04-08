@@ -1,0 +1,35 @@
+services:
+  ### Postgres database for Inventory
+    db-inventory:
+        image: postgres:latest
+        container_name: db-inventory
+        restart: unless-stopped
+        environment:
+            POSTGRES_USER: jofas
+            POSTGRES_PASSWORD: Test123
+            POSTGRES_DB: ms_inventory
+        ports:
+            - 5431:5432
+  ### MySql database for Orders
+    db-orders:
+        image: mysql:latest
+        container_name: db-orders
+        restart: unless-stopped
+        environment:
+            MYSQL_ROOT_PASSWORD: Test123
+            MYSQL_DATABASE: ms_orders
+            MYSQL_USER: jofas
+            MYSQL_PASSWORD: Test123
+        ports:
+            - 3306:3306
+  ### Postgres database for Products
+    db-product:
+        image: postgres:latest
+        container_name: db-products
+        restart: unless-stopped
+        environment:
+            POSTGRES_USER: jofas
+            POSTGRES_PASSWORD: Test123
+            POSTGRES_DB: ms_products
+        ports:
+            - 5432:5432
