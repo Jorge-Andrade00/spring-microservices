@@ -22,6 +22,7 @@
 	</properties>
 
 	<modules>
+		<module>discovery-server</module>
 		<module>api-gateway</module>
 		<module>inventory-service</module>
 		<module>orders-service</module>
@@ -49,5 +50,4 @@
 
 		</plugins>
 	</build>
-
 </project>

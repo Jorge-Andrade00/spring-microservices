@@ -57,7 +57,7 @@ public class OrderService {
     private Boolean checkProductAvailability(OrderRequest orderRequest) {
         return webClientBuilder.build()
                 .post()
-                .uri("http://localhost:8080/api/inventory/in-stock")
+                .uri("lb://inventory-service/api/inventory/in-stock")
                 .bodyValue(orderRequest.getOrderItems())
                 .retrieve()
                 .bodyToMono(Boolean.class)
