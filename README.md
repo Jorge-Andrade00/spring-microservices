@@ -8,11 +8,11 @@ In this project, I'll try to use the best practices and a very interesting tech 
 
 For this project there are three microservices: ms-product, ms-inventory and ms-order.
 
-- ms-product: Microservice destined for products managment and use a Postgres DB as storage system.
-- ms-order: Microservice destined for orders managment and use a MSQL DB as storage system.
-- ms-inventory: Microservice destined for inventory managment and use a Postgres DB as storage system.
+- ms-product: Microservice destined for products management and use a Postgres DB as storage system.
+- ms-order: Microservice destined for orders management and use a MSQL DB as storage system.
+- ms-inventory: Microservice destined for inventory management and use a Postgres DB as storage system.
 
-This project use Spring Gateway to router all request.
+This project use Spring Gateway to router all request and Eureka Netflix as a discovery service.
 
 
 ## Tech Stack
