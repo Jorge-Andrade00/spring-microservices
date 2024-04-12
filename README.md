@@ -16,15 +16,13 @@ This project use Spring Gateway to router all request and Eureka Netflix as a di
 
 
 ## Tech Stack
-- Java 17
-- Spring Boot 3.2.4
-- Postgres
-- MYSQL
-- Docker
-- Docker Compose
 
-
-
+- ![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white)
+- ![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?logo=spring-boot&logoColor=white)
+- ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?logo=postgresql&logoColor=white)
+- ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white)
+- ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)
+- ![Docker Compose](https://img.shields.io/badge/-Docker%20Compose-2496ED?logo=docker&logoColor=white)
 
 
 ## Author
@@ -34,4 +32,4 @@ This project use Spring Gateway to router all request and Eureka Netflix as a di
 
 ## Support
 
-If you have questions or if you want to contact me, feel free to send me an email to jofasandrade@gmail.com
+If you have questions or if you want to contact me, feel free to email me to jofasandrade@gmail.com
